@@ -1,0 +1,170 @@
+/* Page Styles */
+p, ul, ol, table {
+  font-size: 1.5rem;
+}
+
+.page1 {
+  background-image: url(pkmbg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.page2 {
+  background-image: url(hoennbg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 120rem;
+}
+
+.page3 {
+  background-image: url(platinumbg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 125rem;
+}
+
+/* Nav bar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  background-color: lightblue;
+  width: max-content;
+  height: max-content;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.navigation a {
+  color: grey;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 12px;
+}
+
+.navigation a:visited {
+  color: #8404E6;
+}
+
+.navigation a:hover {
+  border-radius: 100px;
+  background-color: greenyellow
+}
+
+.navigation a:active {
+  color: black;
+}
+
+/* Header style */
+h1 {
+  font-size: 3rem;
+}
+
+h2, h3 {
+  font-size: 2rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* Table style */
+th, td {
+  border: 3px solid;
+  border-radius: 3px;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+td span, th span {
+  text-transform: uppercase;
+}
+
+table {
+  border: 6px solid;
+  border-radius: 12px;
+  background-color: aqua;
+  margin: auto;
+}
+
+.blank {
+  background-color: black;
+}
+
+table td:hover {
+  background-color: aqua;
+}
+
+.pkmreg, .pkmnatures {
+  overflow: auto;
+  margin-bottom: 1rem;
+}
+
+.pkmnatures table {
+background-color: orange;
+}
+
+.pkmnatures th, td {
+  background-color: lightblue;
+}
+
+.negative {
+color: red;
+border-color: black;
+}
+
+.positive {
+  color: green;
+  border-color: black;
+}
+
+/* List Styles */
+.list {
+  display: block;
+}
+
+/* Image style */
+#pkmlogo {
+  display: block;
+  width: 30rem;
+  height: 10rem;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+#cmplist {
+  float: right;
+  width: 40%;
+  height: 40%;
+}
+
+#pkmrs {
+  display: flex;
+  width: 25rem;
+  height: 15rem;
+  margin: auto;
+}
+
+#platinum {
+  display: flex;
+  width: 55rem;
+  height: 30rem;
+  margin: auto;
+}
+
+/* Button style */
+#pikabutton {
+  display: flex;
+  align-items: center;
+  font-family: Impact;
+  font-size: large;
+  float: right;
+}
+
+/* Footer Style */
+footer {
+  font-style: italic;
+}
